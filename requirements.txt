@@ -1,0 +1,6 @@
+streamlit
+streamlit-folium
+folium==0.15.1
+osmnx==1.9.1
+networkx==3.2.1
+ortools

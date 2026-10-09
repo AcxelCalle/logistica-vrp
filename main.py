@@ -97,7 +97,7 @@ col1, col2 = st.columns([2, 1])
 
 with col1:
     # Preparar el mapa base
-    mapa = folium.Map(location=DEPOT_COORD, zoom_start=13, tiles='CartoDB positron')
+    mapa = folium.Map(location=DEPOT_COORD, zoom_start=13, tiles='OpenStreetMap')
     
     # Dibujar depósito
     folium.Marker(DEPOT_COORD, tooltip="Depósito Central", icon=folium.Icon(color="red", icon="home")).add_to(mapa)
